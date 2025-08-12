@@ -6,7 +6,7 @@ df = pd.read_csv("state_data.csv")
 
 st.header("US State Demographics")
 
-# Let user select which state to view
+# Let user select which state to graph
 state = st.selectbox("State:", df["State"].unique())
 
 # Create a graph of total population

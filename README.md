@@ -1,18 +1,18 @@
 # streamlit_tutorial
 
-This repo walks you through creating and deploying a data app in Python using
+This repository walks you through creating and deploying a data app in Python using
 [Streamlit](https://streamlit.io/). It contains:
 
   * A small demo app to get you started. This app contains interesting, real-world data.
   * Instructions for installing, running, and modifying the demo app on your local machine.
   * Exercises for improving the app. Solving these problems will help you learn Streamlit.
-  * Instructions for deploying your finsihed app to the internet. This will let you share it with friends and family.
+  * Instructions for deploying your finished app to the internet. This will let you share it with friends and family.
 
 You can view the final app [here](https://arilamstein-tutorial.streamlit.app/).
 
 ### Prerequisites
 
-This tutorial assumes that you have some familiarity with the terminal / command line.  It also assumes that you have git installed on your local machine.
+This tutorial assumes that you have some familiarity with the terminal / command line. It also assumes that you have git installed on your local machine.
 
 Prior experience with git and Python is helpful but not necessary. 
 
@@ -20,7 +20,7 @@ You do not need to have Python installed prior to starting this tutorial.
 
 ### Setup
 
-1. Fork this repository in github
+1. Fork this repository in Github
    ([instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=desktop)).
 1. Clone your fork to your local machine ([instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)).
 1. Install uv ([instructions](https://docs.astral.sh/uv/#installation)). 
@@ -54,15 +54,16 @@ A browser should open that contains the demo app. It should look like this:
    
 ### Modify the App 
 
-The best way to learn Streamlit is to solve small, real-world problems. Open the file
-[exercises.md](exercises.md) and try completing the tasks listed there. They cover:
+The best way to learn Streamlit is to solve small, real-world problems on an existing app. Open the file
+[exercises.md](exercises.md) and try to complete the tasks listed there. They ask you to modify the demo app by:
 1. Adding a new graph.
-1. Adding a new select box for user input.
-1. Creating tabs. 
+1. Adding a new input widget.
+1. Using the value from input widgets when creating a graph. 
+1. Using tabs to make the app easier to navigate. 
 
-If you get stuck, check my solutions in `solution_app.py`.
+These are common tasks when working in Streamlit. If you get stuck, check my solutions in `solution_app.py`.
 
-After you have finished the exercises, commit your changes and push them to github.
+After you have finished the exercises, commit your changes and push them to Github.
 
 ### Deploy Your App
 
